@@ -1,0 +1,198 @@
+{
+  "slug": "royal-blue-diving",
+  "kind": "session",
+  "realBrand": true,
+  "brand": {
+    "name": "Royal Blue Diving",
+    "tagline": {
+      "fr": "Panormo, Crète. Une équipe familiale, moitié grecque moitié française",
+      "en": "Panormo, Crete. A family team, half Greek half French"
+    },
+    "primary": "#0B3C5D",
+    "accent": "#F2A65A",
+    "fontPairing": "editorial"
+  },
+  "currency": "EUR",
+  "languages": [
+    "fr",
+    "en"
+  ],
+  "depositPercent": 30,
+  "images": {
+    "hero": "images/hero.jpg",
+    "gallery": [
+      "images/team-table.jpg"
+    ]
+  },
+  "blockedDates": [
+    "2026-08-02",
+    "2026-08-09",
+    "2026-08-16",
+    "2026-08-23",
+    "2026-08-30"
+  ],
+  "units": [
+    {
+      "id": "discover",
+      "name": {
+        "fr": "Baptême de plongée",
+        "en": "Discover Scuba Diving"
+      },
+      "description": {
+        "fr": "Votre première respiration sous l'eau, équipement compris. Rendez-vous à 8h45 à l'école de plongée, briefing en français ou en anglais.",
+        "en": "Your first breath underwater, equipment included. Meet at 8:45 at the diving school, briefing in French or English."
+      },
+      "image": "images/fitting.jpg",
+      "capacity": 4,
+      "basePrice": 90,
+      "priceUnit": "perPerson",
+      "slots": [
+        "08:45"
+      ],
+      "options": [
+        "deuxieme-plongee",
+        "photos"
+      ]
+    },
+    {
+      "id": "deux-plongees",
+      "name": {
+        "fr": "2 plongées sur une journée, plongeurs certifiés",
+        "en": "2 dives over 1 day, certified divers"
+      },
+      "description": {
+        "fr": "Deux plongées autour de Panormo, air et lestage compris ainsi que l'équipement complet.",
+        "en": "Two dives around Panormo, air and ballast included along with full equipment."
+      },
+      "image": "images/shore.jpg",
+      "capacity": 6,
+      "basePrice": 125,
+      "priceUnit": "perPerson",
+      "slots": [
+        "08:45"
+      ],
+      "options": [
+        "photos"
+      ]
+    },
+    {
+      "id": "elephant-cave",
+      "name": {
+        "fr": "Sortie bateau, la grotte de l'Éléphant",
+        "en": "Boat trip, the Elephant cave"
+      },
+      "description": {
+        "fr": "Départ du port de Venizien, deux heures de navigation et deux plongées, une à l'extérieur de la grotte et une à l'intérieur.",
+        "en": "Departing from Venizien port, two hours of navigation and two dives, one outside the cave and one inside."
+      },
+      "image": "images/boat.jpg",
+      "capacity": 6,
+      "basePrice": 145,
+      "priceUnit": "perPerson",
+      "slots": [
+        "08:45"
+      ],
+      "options": [
+        "photos"
+      ]
+    },
+    {
+      "id": "open-water",
+      "name": {
+        "fr": "PADI Open Water",
+        "en": "PADI Open Water"
+      },
+      "description": {
+        "fr": "La certification qui vous ouvre les sites du monde entier. Le support théorique PADI n'est pas compris.",
+        "en": "The certification that opens dive sites worldwide. PADI theory materials are not included."
+      },
+      "image": "images/theory.jpg",
+      "capacity": 4,
+      "basePrice": 490,
+      "priceUnit": "perPerson",
+      "slots": [
+        "08:45"
+      ],
+      "options": [
+        "elearning",
+        "photos"
+      ]
+    },
+    {
+      "id": "snorkeling",
+      "name": {
+        "fr": "Masque et tuba, depuis la plage",
+        "en": "Mask and snorkel, from the beach"
+      },
+      "description": {
+        "fr": "Pour découvrir les fonds sans bouteille, au départ de la plage. Possible aussi depuis le bateau.",
+        "en": "To see what is under the surface without a tank, starting from the beach. Also possible from the boat."
+      },
+      "image": "images/terrace.jpg",
+      "capacity": 8,
+      "basePrice": 45,
+      "priceUnit": "perPerson",
+      "slots": [
+        "08:45"
+      ],
+      "options": [
+        "depuis-le-bateau",
+        "photos"
+      ]
+    }
+  ],
+  "options": [
+    {
+      "id": "deuxieme-plongee",
+      "label": {
+        "fr": "Une deuxième plongée le même jour",
+        "en": "A second dive on the same day"
+      },
+      "description": {
+        "fr": "Si l'expérience vous plaît, vous pouvez repartir une seconde fois dans la journée.",
+        "en": "If you enjoy the experience, you can go back in a second time the same day."
+      },
+      "price": 45,
+      "rule": "perPerson"
+    },
+    {
+      "id": "depuis-le-bateau",
+      "label": {
+        "fr": "Depuis le bateau plutôt que la plage",
+        "en": "From the boat rather than the beach"
+      },
+      "description": {
+        "fr": "La même sortie, au départ du bateau.",
+        "en": "The same outing, starting from the boat."
+      },
+      "price": 20,
+      "rule": "perPerson"
+    },
+    {
+      "id": "photos",
+      "label": {
+        "fr": "Photos et vidéos pendant la plongée",
+        "en": "Photos and video during the dive"
+      },
+      "description": {
+        "fr": "L'équipe prend des photos et des vidéos pendant la plongée. Il suffit de demander.",
+        "en": "The team takes photos and video during the dive. You only have to ask."
+      },
+      "price": 20,
+      "rule": "perPerson"
+    },
+    {
+      "id": "elearning",
+      "label": {
+        "fr": "PADI e-learning",
+        "en": "PADI e-learning"
+      },
+      "description": {
+        "fr": "Ce tarif est réservé aux élèves qui suivent le cours avec le centre.",
+        "en": "This rate is for students taking the course with the centre."
+      },
+      "price": 105,
+      "rule": "perPerson"
+    }
+  ]
+}
